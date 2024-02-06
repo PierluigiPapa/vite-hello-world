@@ -6,25 +6,29 @@ import AppHero from './components/AppHero.vue';
     components:{
       AppTitle,
       AppHero,
-     }
+    }
   }
 
 </script>
 
 <template>
+
 <AppTitle></AppTitle>
 <AppHero></AppHero>
+
 </template>
 
 <style>
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+html{
+  font-family: sans-serif;
+  background-color: red;
   }
 
-  html{
-      font-family: sans-serif;
-      background-color: red;
-  }
 </style>
